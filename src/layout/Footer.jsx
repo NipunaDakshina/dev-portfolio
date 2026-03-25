@@ -1,9 +1,10 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, InstagramIcon , Heart, Instagram } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://github.com/NipunaDakshina", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/nipunadakshina/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/nipuna_dakshina", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/nipuna_dakshina", label: "Instagram" },
 ];
 
 const footerLinks = [
@@ -23,14 +24,14 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              Nipuna Dakshina<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Nipuna Dakshin. All rights reserved.
             </p>
           </div>
 
-          {/* Links */}
+          {/* Footer Links */}
           <nav className="flex flex-wrap justify-center gap-6">
             {footerLinks.map((link) => (
               <a
@@ -49,6 +50,8 @@ export const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"               // open in new tab
+                rel="noopener noreferrer"     // security
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >

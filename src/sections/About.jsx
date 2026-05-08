@@ -49,22 +49,22 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am a Computer Science graduate from UCSC with a strong passion
+                for software development and problem-solving. My journey in tech
+                has been driven by curiosity and a continuous desire to learn
+                and build impactful solutions.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I have gained practical experience as a Software Engineer
+                Intern, where I worked on real-world applications and
+                strengthened my skills in full-stack development. I am
+                experienced in technologies such as C, C#, C++, and modern web
+                development tools.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I enjoy exploring new technologies, building projects, and
+                continuously improving my skills while contributing to
+                meaningful and innovative software solutions.
               </p>
             </div>
 

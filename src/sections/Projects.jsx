@@ -2,42 +2,50 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "SerWise - Online Garage Management System",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+      "SerWise is a web-based garage management system that automates appointments, job tracking, customer management, and billing. It provides a simple dashboard to monitor operations, improve efficiency, and streamline daily garage workflows.",
+    image: "/projects/serwise.png",
+    tags: ["Java", "JavaScript", "HTML", "CSS", "MySql"],
     link: "#",
-    github: "#",
+    github: "https://github.com/NipunaDakshina",
   },
   {
-    title: "E-Commerce Platform",
+    title: "OpinionLK - Online Survey Management System",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "OpinionLK is a web-based survey management system designed to create, manage, and analyze surveys efficiently. It provides an interactive dashboard to track responses, monitor performance, and generate insights, helping organizations make data-driven decisions with ease.",
+    image: "/projects/opinionlk.png",
+    tags: ["ReactJS","NodeJS","MongoDB","TailwindCSS","ChackraUI",],
     link: "#",
-    github: "#",
+    github: "https://github.com/NipunaDakshina",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Sentiment Analyer - AI application for Emotion recognition in text",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+      "A simple web-based Sentiment Analyzer app that lets users enter text and instantly detects whether the sentiment is positive, neutral, or negative, displaying results with a clear score and confidence level in a clean UI.",
+    image: "/projects/sentiment.png",
+    tags: ["BERT","JavaScript","HTML","CSS", "OpenAI", "Python"],
     link: "#",
-    github: "#",
+    github: "https://github.com/NipunaDakshina",
   },
   {
-    title: "Project Management Tool",
+    title: "Expense Tracker - Monitoring Daily Expenses",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "An Expense Tracker application helps users record, monitor, and analyze their daily income and expenses to manage budgets effectively and improve financial habits.",
+    image: "/projects/expense.png",
+    tags: ["React.js", "TailwindCSS", "PostgreSql"],
     link: "#",
-    github: "#",
+    github: "https://github.com/NipunaDakshina",
   },
 ];
+<a
+  href= 'https://github.com/NipunaDakshina'
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+>
+  <Github className="w-5 h-5" />
+</a>
 
 export const Projects = () => {
   return (
@@ -94,6 +102,8 @@ export const Projects = () => {
                   </a>
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <Github className="w-5 h-5" />
@@ -134,10 +144,12 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a href="https://github.com/NipunaDakshina" target="_blank" rel="noopener noreferrer">
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>

@@ -32,7 +32,7 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-xl font-bold tracking-tight hover:text-primary"
+          className="text-base md:text-xl font-bold tracking-tight hover:text-primary"
         >
           Nipuna Dakshina_<span className="text-primary">.</span>
         </a>

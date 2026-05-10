@@ -35,7 +35,7 @@ const skills = [
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden pt-10 md:pt-5">
       {/* Bg */}
       <div className="absolute inset-0">
         <img
